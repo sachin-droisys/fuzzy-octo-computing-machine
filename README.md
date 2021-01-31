@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This helps running dotnetcore application (Device Management Service) for development purpose.
+This helps to run the dotnetcore application (Device Management Service) for development environment.
 
 ## Prerequisites
 (Recommended Version)
@@ -14,7 +14,7 @@ This helps running dotnetcore application (Device Management Service) for develo
 
 ## Installation
 
-1. Login with Github credential on https://github.com/realwear/Foresight-MS-DeviceManagement-RSystems and copy the url to clone.
+1. Login with Github credential on https://github.com/realwear/Foresight-MS-DeviceManagement-RSystems and copy the repository url.
 
 2. Clone the repository in Visual Studio/ VS Code.
 
@@ -22,11 +22,11 @@ This helps running dotnetcore application (Device Management Service) for develo
 
 4. Restore all the dependencies.
 
-5. Update the appsettings.json file with Authority, Service Bus & MongoDb related configuaration. 
+5. Update the appsettings.json file with Authority, Service Bus & MongoDb related configuaration (mentioned in configuration section). 
 
-6. Run the service application using F5 or command line argument.
+6. Run the API application using F5 or command line argument.
 
-7. Open the Postman and upload the Unit Test collection file from import option.
+7. Open the Postman and upload the Unit Test collection file using import option.
 
 8. Run all integration test case collection to get the test summary.
 
