@@ -26,14 +26,15 @@ This helps running dotnetcore application (Device Management Service) for develo
 
 6. Run the service application using F5 or command line argument.
 
-7. Open the Postman and upload the Integration Test collection file from import option.
+7. Open the Postman and upload the Unit Test collection file from import option.
 
 8. Run all integration test case collection to get the test summary.
 
-## Configure the chart
+## Application Configuration
 
-The following items can be set in appconfig.json before running the application directly.
+The following items can be set in appsettings.json before running the application directly.
 
+```json
   "Storage": {
     "MongoDBConnectionString": "",
     "MongoDBDatabaseName": "",
@@ -43,6 +44,7 @@ The following items can be set in appconfig.json before running the application 
     "Authority": ""
   },
 
+```
 -------------------------------------------------------------------------------------------------------------------------
 ## Integration Testing Framework using Newman postman Collection
 
