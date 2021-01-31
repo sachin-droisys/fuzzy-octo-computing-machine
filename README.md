@@ -1,4 +1,4 @@
-# RealWear Device Mangement Service - Deployment/Installation 
+# RealWear Device Management Service - Deployment/Installation 
 
 ## Development Environment
 
