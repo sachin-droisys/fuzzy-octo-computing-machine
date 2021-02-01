@@ -27,6 +27,7 @@ dotnet build
 -Change the appsettings.config from application root location for Authority, Service Bus & MongoDb configuration.
 
 ```json
+
   "Storage": {
     "MongoDBConnectionString": "",
     "MongoDBDatabaseName": "",
@@ -35,9 +36,14 @@ dotnet build
   "Accounts": {
     "Authority": ""
   },
+```
 
 -Run the application
-```
-dotnet run
 
 ```
+dotnet run
+```
+
+- Open the Postman and Import the Integration Test collection file from root/testharness folder.
+
+- Run all integration test collection to get the test summary.
