@@ -17,14 +17,14 @@ This helps to setup the development environment and deploy the Device Management
 
 ## Installation & Code Setup
 
--Code checkout and build 
+- Code checkout and build 
 
 ```
 git clone https://github.com/realwear/Foresight-MS-DeviceManagement-RSystems.git -b Features/VL_NewProjectInitialCheckin
 dotnet build
 ```
 
--Change the appsettings.config from application root location for Authority, Service Bus & MongoDb configuration.
+- Change the appsettings.config from application root location for Authority, Service Bus & MongoDb configuration.
 
 ```json
 
@@ -38,7 +38,7 @@ dotnet build
   },
 ```
 
--Run the application
+- Run the application
 
 ```
 dotnet run
